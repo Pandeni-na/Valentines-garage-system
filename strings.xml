@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- strings-af.xml – Afrikaans translations -->
+<resources>
+    <string name="app_name">Valentine se Garage</string>
+    <string name="dark_mode">Donker</string>
+
+    <!-- Login -->
+    <string name="login_subtitle">Teken in om voort te gaan</string>
+    <string name="hint_email">E-posadres</string>
+    <string name="hint_password">Wagwoord</string>
+    <string name="btn_login">Teken In</string>
+
+    <!-- Check-in -->
+    <string name="check_in_title">Voertuig-inteken</string>
+    <string name="check_in_subtitle">Registreer die voertuigbesonderhede by aankoms</string>
+    <string name="hint_plate">Nommerbord (bv. N 123-456)</string>
+    <string name="hint_owner">Eienaar se naam</string>
+    <string name="hint_km">Kilometerteller-lesing (km)</string>
+    <string name="hint_condition">Voertuigtoestand by aankoms</string>
+    <string name="btn_check_in">Teken Voertuig In</string>
+
+    <!-- Mechanic -->
+    <string name="active_trucks">Aktiewe Voertuie</string>
+    <string name="no_trucks">Geen voertuie tans in die garage nie.</string>
+    <string name="view_tasks">Sien take →</string>
+    <string name="no_tasks">Geen take nie. Tik + om een by te voeg.</string>
+    <string name="add_task">Voeg taak by</string>
+    <string name="hint_notes">Notas (wat gedoen is, onderdele gebruik…)</string>
+    <string name="hint_task_title">Taakbeskrywing (bv. Olieverversing)</string>
+    <string name="btn_save_notes">Stoor Notas</string>
+
+    <!-- Admin -->
+    <string name="welcome_admin">Welkom, Valentine</string>
+    <string name="admin_subtitle">Kies \'n verslag om te sien</string>
+    <string name="vehicle_reports">Voertuigverslae</string>
+    <string name="employee_reports">Werknemerverslae</string>
+    <string name="sign_out">Teken Uit</string>
+</resources>
