@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_admin_dashboard.xml – Valentine's home screen -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="?attr/colorSurface">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_admin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_subtitle"
+        android:textSize="14sp"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Vehicle Report button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVehicleReport"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/vehicle_reports"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+    <!-- Employee Report button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEmployeeReport"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/employee_reports"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    <!-- Sign out -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_out"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+</LinearLayout>
